@@ -48,6 +48,7 @@ header h3 {
   padding-top: 0.5em;
 }
 
+/* MAIN */
 main {
   display: flex;
   flex-direction: row;
@@ -95,16 +96,18 @@ ul {
   padding-left: 1.5em;
 }
 
-/* Only shows the red lines on index html page */
-body.index .speaker-heading {
+.speaker-heading {
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.2em;
   margin-bottom: 0.5em;
 }
 
-body.index .readmore-link {
+.readmore-link {
+  display: block;
+  width: 100%;
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 2px;
+  padding-bottom: 4px;
+  margin-bottom: 0.5em;
   text-decoration: none;
   color: var(--main-color);
 }
@@ -119,7 +122,6 @@ main h2, main h3 {
   padding-right: 0;
 }
 
-/* LINKS */
 a:hover,
 a:focus {
   font-style: italic;
@@ -129,7 +131,6 @@ em.shadow {
   text-shadow: 1px 1px var(--main-color);
 }
 
-/* FOOTER */
 footer {
   background-color: var(--main-color);
   color: white;
