@@ -18,7 +18,6 @@ body {
   padding: 0;
 }
 
-/* HEADER with gradient */
 header {
   background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
   border-bottom: 3px solid var(--border-color);
@@ -49,7 +48,6 @@ header h3 {
   padding-top: 0.5em;
 }
 
-/* MAIN */
 main {
   display: flex;
   flex-direction: row;
@@ -97,21 +95,20 @@ ul {
   padding-left: 1.5em;
 }
 
-/* Custom underline styles */
-.speaker-heading {
+/* Only shows the red lines on index html page */
+body.index .speaker-heading {
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.2em;
   margin-bottom: 0.5em;
 }
 
-.readmore-link {
+body.index .readmore-link {
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 2px;
   text-decoration: none;
   color: var(--main-color);
 }
 
-/* PADDING FIXES */
 header h2, header h3 {
   padding-left: 1.5em;
   padding-right: 2em;
