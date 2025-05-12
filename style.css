@@ -97,6 +97,20 @@ ul {
   padding-left: 1.5em;
 }
 
+/* Custom underline styles */
+.speaker-heading {
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.readmore-link {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2px;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
 /* PADDING FIXES */
 header h2, header h3 {
   padding-left: 1.5em;
