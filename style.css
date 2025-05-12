@@ -48,7 +48,6 @@ header h3 {
   padding-top: 0.5em;
 }
 
-/* MAIN */
 main {
   display: flex;
   flex-direction: row;
@@ -96,6 +95,7 @@ ul {
   padding-left: 1.5em;
 }
 
+/* Custom underline styles */
 .speaker-heading {
   border-bottom: 2px solid var(--border-color);
   padding-bottom: 0.2em;
